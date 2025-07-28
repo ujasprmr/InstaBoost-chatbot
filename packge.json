@@ -1,0 +1,16 @@
+{
+  "name": "instaboost-coach",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx esbuild index.tsx --bundle --outfile=dist/bundle.js --minify --define:process.env.API_KEY='\"YOUR_API_KEY_HERE\"'"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@google/genai": "^0.4.0",
+    "marked": "^11.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.0"
+  }
+}
